@@ -1,0 +1,36 @@
+cabal-version:      2.4
+name:               100CP
+version:            0.1.0.0
+synopsis:
+    My updated version of the style of the book  
+    Some Common Pascal Programs that I used on my 
+    first steps to learn professional programming.
+
+-- A longer description of the package.
+-- description:
+homepage:           https://www.vortecslatam.com/vortecmaster
+
+-- A URL where users can report bugs.
+-- bug-reports:
+license:            GPL-3.0-only
+license-file:       LICENSE
+author:             Roberto Cerrud
+maintainer:         vortecsmaster@vortecsla.com
+
+-- A copyright notice.
+-- copyright:
+category:           Language
+extra-source-files:
+    README.md
+    ChangeLog.md
+
+executable 100CP
+    main-is:          Main.hs
+    -- Modules included in this executable, other than Main.
+    other-modules:    LoanFV
+
+    -- LANGUAGE extensions used by modules in this package.
+    -- other-extensions:
+    build-depends:    base ^>=4.16.4.0
+    hs-source-dirs:   src
+    default-language: Haskell2010
