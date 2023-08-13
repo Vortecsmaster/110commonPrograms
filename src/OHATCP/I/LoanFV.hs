@@ -1,4 +1,4 @@
-module LoanFV where
+module OHATCP.I.LoanFV where
 
 futureValue :: IO ()
 futureValue = do
